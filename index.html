@@ -1,10 +1,94 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Admin | Netlify CMS</title>
-  </head>
-  <body>
-    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Beatriz De Guardo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+    }
+    header {
+      position: relative;
+      background-image: url('img/portada.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      color: white;
+    }
+    header h1 {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      margin: 0;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+      font-size: 2.5em;
+    }
+    .frase {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      text-align: right;
+      font-style: italic;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    }
+    .frase em {
+      display: block;
+    }
+    nav {
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #203040;
+      font-weight: bold;
+    }
+    main {
+      text-align: center;
+      padding: 20px;
+    }
+    .foto-personal {
+      width: 120px;
+      border-radius: 15px;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #203040;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Beatriz De Guardo</h1>
+    <div class="frase">
+      <em>Brigadum fue un velo. Beatriz, la transparencia.</em>
+      <em>Brigadum was a veil. Beatriz, the transparency.</em>
+    </div>
+  </header>
+  <nav>
+    <a href="#">Abstracto</a>
+    <a href="#">Figurativo</a>
+    <a href="#">Figurativo Etérico</a>
+    <a href="#">Étnico</a>
+    <a href="#">Poesía</a>
+    <a href="#">Sobre la artista</a>
+    <a href="#">Contacto</a>
+  </nav>
+  <main>
+    <p><em>Bienvenido a mi espacio creativo, un lugar que a menudo roza lo liminal.</em></p>
+    <p><em>Welcome to my creative space, a place that often touches the liminal.</em></p>
+    <img src="img/foto.jpg" alt="Beatriz De Guardo" class="foto-personal">
+  </main>
+  <footer>
+    © Beatriz De Guardo
+  </footer>
+</body>
 </html>
