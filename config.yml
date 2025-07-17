@@ -3,6 +3,7 @@ backend:
   repo: BDEGUARDO/beatrizdeguardo-web
 
   branch: main
+  site_domain: euphonious-fenglisu-d22d7d.netlify.app
 
 media_folder: "img"
 public_folder: "/img"
