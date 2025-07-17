@@ -1,7 +1,8 @@
 backend:
   name: github
-  repo: BDEGUARDO/beatrizdeguardo-web
+ auth_scope: repo
 
+ repo: BDEGUARDO/beatrizdeguardo-web
   branch: main
   site_domain: euphonious-fenglisu-d22d7d.netlify.app
 
