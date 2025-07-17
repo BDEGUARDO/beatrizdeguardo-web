@@ -1,20 +1,17 @@
 backend:
-  name: github
-  repo: BDEGUARDO/beatrizdeguardo-web
+  name: git-gateway
   branch: main
 
 media_folder: "img"
 public_folder: "/img"
 
 collections:
-  - name: "abstracto"
-    label: "Abstracto"
-    folder: "abstracto"
+  - name: "obras"
+    label: "Obras"
+    folder: "obras"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Imagen", name: "image", widget: "image" }
       - { label: "Título", name: "title", widget: "string" }
-      - { label: "Técnica", name: "technique", widget: "string" }
-      - { label: "Medidas", name: "size", widget: "string" }
-      - { label: "Descripción", name: "description", widget: "text" }
+      - { label: "Imagen", name: "image", widget: "image" }
+      - { label: "Descripción", name: "body", widget: "markdown" }
