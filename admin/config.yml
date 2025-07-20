@@ -2,6 +2,7 @@ backend:
   name: github
   repo: BDEGUARDO/beatrizdeguardo-web
   branch: main
+# Ajuste para forzar deploy
 
 media_folder: "images/uploads" # Carpeta donde se guardan las imágenes
 public_folder: "/images/uploads" # Ruta pública para mostrarlas en la web
