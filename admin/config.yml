@@ -2,10 +2,11 @@ backend:
   name: github
   repo: BDEGUARDO/beatrizdeguardo-web
   branch: main
-# Ajuste para forzar deploy
+  auth_type: implicit
+  app_id: "c2fbc1b6f15d932ea38a"  # Este app_id es válido para uso directo con GitHub y Netlify CMS
 
-media_folder: "images/uploads" # Carpeta donde se guardan las imágenes
-public_folder: "/images/uploads" # Ruta pública para mostrarlas en la web
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
 
 collections:
   - name: "figurativo"
