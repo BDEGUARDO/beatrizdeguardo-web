@@ -4,55 +4,16 @@ backend:
   branch: main
   auth_type: token
 
-media_folder: "public/uploads"
-public_folder: "/uploads"
+media_folder: "static/img"
+public_folder: "/img"
 
 collections:
-  - name: "abstracto"
-    label: "Abstracto"
-    folder: "content/abstracto"
+  - name: "cuadros"
+    label: "Cuadros"
+    folder: "cuadros"
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Descripción", name: "description", widget: "text" }
       - { label: "Imagen", name: "image", widget: "image" }
-
-  - name: "figurativo"
-    label: "Figurativo"
-    folder: "content/figurativo"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Título", name: "title", widget: "string" }
-      - { label: "Descripción", name: "description", widget: "text" }
-      - { label: "Imagen", name: "image", widget: "image" }
-
-  - name: "eterico"
-    label: "Etérico"
-    folder: "content/eterico"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Título", name: "title", widget: "string" }
-      - { label: "Descripción", name: "description", widget: "text" }
-      - { label: "Imagen", name: "image", widget: "image" }
-
-  - name: "etnico"
-    label: "Étnico"
-    folder: "content/etnico"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Título", name: "title", widget: "string" }
-      - { label: "Descripción", name: "description", widget: "text" }
-      - { label: "Imagen", name: "image", widget: "image" }
-
-  - name: "poesia"
-    label: "Poesía"
-    folder: "content/poesia"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Título", name: "title", widget: "string" }
-      - { label: "Texto", name: "texto", widget: "markdown" }
